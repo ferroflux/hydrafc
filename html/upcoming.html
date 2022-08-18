@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hydra FC</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <nav id="navbar" class="m-3"></nav>
+    <script>
+    getText("../misc/nav.txt");
+    async function getText(file) {
+        let docFetch = await fetch(file);
+        let docWrite = await docFetch.text();
+        document.getElementById("navbar").innerHTML = docWrite;
+    }
+    </script>
+</body>
+</html>
