@@ -7,9 +7,13 @@
     <title>Hydra FC</title>
     <link rel="icon" type="image/x-icon" href="favicon.ico">
     <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        #maincont { display: flex; }
+        @media (max-width: 800px){ #maincont { display:inline; } }
+    </style>
 </head>
-<body>
-    <nav id="navbar" class="m-3"></nav>
+<body class="block m-3">
+    <nav id="navbar"></nav>
     <script>
     getText("/misc/nav.txt");
     async function getText(file) {
@@ -18,5 +22,42 @@
         document.getElementById("navbar").innerHTML = docWrite;
     }
     </script>
+    <br><br><br>
+    <div id="maincont">
+        <div class="m-2 bg-black text-slate-100 w-80 p-3 h-auto rounded-2xl">
+            <img class="block m-auto rounded-lg" src="https://media.istockphoto.com/photos/silhouette-of-profile-guy-in-shirt-with-white-button-in-aqua-menthe-picture-id1206439390?k=20&m=1206439390&s=170667a&w=0&h=wDX4xov95UOzjOgOkTqRurDiTepjhqAA7Q2iFofrO5c=">
+            <h1 class="text-5xl">Upcoming matches</h1>
+            <br>
+            <p class="text-medium">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse imperdiet lectus lacus, at pharetra sapien auctor sit amet. Vivamus eu lectus id odio convallis fringilla nec pulvinar augue. Ut fermentum sagittis porttitor. Vivamus sed lacus sed lacus consectetur suscipit. Sed non lorem blandit, vestibulum tellus nec, feugiat diam. Integer ac lacinia lectus. Integer iaculis mattis accumsan. Praesent euismod dui dolor, id tristique est interdum id. Sed aliquam eu risus non interdum. Integer interdum tortor sed est rhoncus viverra.</p>
+        </div>
+        
+        <div class="m-2 bg-black text-slate-100 w-80 p-3 h-auto rounded-2xl">
+            <img class="block m-auto rounded-lg" src="https://media.istockphoto.com/photos/silhouette-of-profile-guy-in-shirt-with-white-button-in-aqua-menthe-picture-id1206439390?k=20&m=1206439390&s=170667a&w=0&h=wDX4xov95UOzjOgOkTqRurDiTepjhqAA7Q2iFofrO5c=">
+            <h1 class="text-5xl">Upcoming matches</h1>
+            <br>
+            <p class="text-medium">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse imperdiet lectus lacus, at pharetra sapien auctor sit amet. Vivamus eu lectus id odio convallis fringilla nec pulvinar augue. Ut fermentum sagittis porttitor. Vivamus sed lacus sed lacus consectetur suscipit. Sed non lorem blandit, vestibulum tellus nec, feugiat diam. Integer ac lacinia lectus. Integer iaculis mattis accumsan. Praesent euismod dui dolor, id tristique est interdum id. Sed aliquam eu risus non interdum. Integer interdum tortor sed est rhoncus viverra.</p>
+        </div>
+
+        <div class="m-2 bg-black text-slate-100 w-80 p-3 h-auto rounded-2xl">
+            <img class="block m-auto rounded-lg" src="https://media.istockphoto.com/photos/silhouette-of-profile-guy-in-shirt-with-white-button-in-aqua-menthe-picture-id1206439390?k=20&m=1206439390&s=170667a&w=0&h=wDX4xov95UOzjOgOkTqRurDiTepjhqAA7Q2iFofrO5c=">
+            <h1 class="text-5xl">Upcoming matches</h1>
+            <br>
+            <p class="text-medium">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse imperdiet lectus lacus, at pharetra sapien auctor sit amet. Vivamus eu lectus id odio convallis fringilla nec pulvinar augue. Ut fermentum sagittis porttitor. Vivamus sed lacus sed lacus consectetur suscipit. Sed non lorem blandit, vestibulum tellus nec, feugiat diam. Integer ac lacinia lectus. Integer iaculis mattis accumsan. Praesent euismod dui dolor, id tristique est interdum id. Sed aliquam eu risus non interdum. Integer interdum tortor sed est rhoncus viverra.</p>
+        </div>
+
+        <div class="m-2 bg-black text-slate-100 w-80 p-3 h-auto rounded-2xl">
+            <img class="block m-auto rounded-lg" src="https://media.istockphoto.com/photos/silhouette-of-profile-guy-in-shirt-with-white-button-in-aqua-menthe-picture-id1206439390?k=20&m=1206439390&s=170667a&w=0&h=wDX4xov95UOzjOgOkTqRurDiTepjhqAA7Q2iFofrO5c=">
+            <h1 class="text-5xl">Upcoming matches</h1>
+            <br>
+            <p class="text-medium">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse imperdiet lectus lacus, at pharetra sapien auctor sit amet. Vivamus eu lectus id odio convallis fringilla nec pulvinar augue. Ut fermentum sagittis porttitor. Vivamus sed lacus sed lacus consectetur suscipit. Sed non lorem blandit, vestibulum tellus nec, feugiat diam. Integer ac lacinia lectus. Integer iaculis mattis accumsan. Praesent euismod dui dolor, id tristique est interdum id. Sed aliquam eu risus non interdum. Integer interdum tortor sed est rhoncus viverra.</p>
+        </div>
+
+        <div class="m-2 bg-black text-slate-100 w-80 p-3 h-auto rounded-2xl">
+            <img class="block m-auto rounded-lg" src="https://media.istockphoto.com/photos/silhouette-of-profile-guy-in-shirt-with-white-button-in-aqua-menthe-picture-id1206439390?k=20&m=1206439390&s=170667a&w=0&h=wDX4xov95UOzjOgOkTqRurDiTepjhqAA7Q2iFofrO5c=">
+            <h1 class="text-5xl">Upcoming matches</h1>
+            <br>
+            <p class="text-medium">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse imperdiet lectus lacus, at pharetra sapien auctor sit amet. Vivamus eu lectus id odio convallis fringilla nec pulvinar augue. Ut fermentum sagittis porttitor. Vivamus sed lacus sed lacus consectetur suscipit. Sed non lorem blandit, vestibulum tellus nec, feugiat diam. Integer ac lacinia lectus. Integer iaculis mattis accumsan. Praesent euismod dui dolor, id tristique est interdum id. Sed aliquam eu risus non interdum. Integer interdum tortor sed est rhoncus viverra.</p>
+        </div>
+    </div>
 </body>
 </html>
