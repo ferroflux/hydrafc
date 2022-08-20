@@ -1,6 +1,6 @@
-<ul style="background: rgba( 0, 0, 0, 0.75 ); backdrop-filter: blur( 2.5px ); -webkit-backdrop-filter: blur( 2.5px ); border: 1px solid rgba( 255, 255, 255, 0.18 ); " class="p-3 flex space-x-3 float-right rounded-md">
-    <li class="text-slate-50 font-medium"><a href="">Home</a></li>
+<ul style="background: rgba( 0, 0, 0, 0.75 ); backdrop-filter: blur( 2.5px ); -webkit-backdrop-filter: blur( 2.5px ); border: 1px solid rgba( 255, 255, 255, 0.18 ); " class="p-3 flex mx-auto space-x-8 float-right rounded-md h-auto w-full">
+    <li class="text-slate-50 font-medium"><a href="../homepage.html">Home</a></li>
     <li class="text-slate-50 font-medium"><a href="">Teams</a></li>
     <li class="text-slate-50 font-medium"><a href="">Players</a></li>
-    <li class="text-slate-50 font-medium"><a href="">Contact</a></li>
+    <li class="text-slate-50 font-medium"><a href="../html/about.html">Contact</a></li>
 </ul>
