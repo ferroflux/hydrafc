@@ -1,0 +1,4 @@
+<div class="p-2 bg-black font-small text-slate-100 text-center rounded-lg">
+    <p>a <a class="text-cyan-300" href="http://anubisfey.cf">syswraith</a> and ferroflux production</p>
+    <p>hydrafc © 2022</p>
+</div>
